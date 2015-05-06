@@ -1,0 +1,1 @@
+ogr2ogr -f PostgreSQL PG:"port=5432" *.geo.json -nln country_bounds 
